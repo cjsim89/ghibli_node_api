@@ -9,3 +9,7 @@ This repository is a resurrected version of the now-defunct https://ghibliapi.he
 
 and their corresponding show pages (e.g. `/films/:id`). 
 
+## How to Use
+This repository is hosted at https://limitless-castle-00011.herokuapp.com/. 
+Locally, it will launch to `http://localhost:3001`. 
+The data source is located in `data/data.json`. 
