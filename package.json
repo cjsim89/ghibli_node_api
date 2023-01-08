@@ -2,14 +2,19 @@
   "name": "ghibli_node_api",
   "version": "1.0.0",
   "description": "A node API for serving the Ghibli API data",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server --watch data.json",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "json-server": "^0.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
